@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@theme inline {
+  --color-background: #faf7f2;
+  --color-foreground: #1a1714;
+  --color-card: #ffffff;
+  --color-card-foreground: #1a1714;
+  --color-primary: #c85c2a;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f0ebe3;
+  --color-secondary-foreground: #4a3f35;
+  --color-muted: #e8e0d5;
+  --color-muted-foreground: #7a6e64;
+  --color-accent: #e8a44a;
+  --color-accent-foreground: #1a1714;
+  --color-border: #ddd5c8;
+  --color-ring: #c85c2a;
+  --radius: 0.75rem;
+  --font-sans: 'Nunito', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover {
+  scrollbar-color: var(--color-border) transparent;
+}
